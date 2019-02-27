@@ -1,0 +1,174 @@
+/* =============== Layout =============== */
+html, body, .capa {
+	height: 100%;
+}
+
+body {
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(30deg,#848689,#7BC24D);
+	background-attachment: fixed;
+	font-family: Trebuchet MS,sans-serif;
+	overflow-x: hidden;
+}
+
+/* -- Barra de Navegação --*/
+.img-logo {
+	height: 50px;
+	width: 142px;
+	display: block;
+	background: url('imagens/natural.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+nav.navbar-transparent {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbra-brand {
+	padding: 5px 15px;
+}
+
+.divisor {
+	width: 1px;
+	height: 16px;
+	background: #fff;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+	color: #B5D454;
+	background: none;
+}
+
+/* -- Imagem de Capa --*/
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Botões --*/
+.btn-custom {
+	color: #fff;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	margin: 0px 15px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-verde {
+	background: #B5D454;
+}
+.btn-verde:hover {
+	background: #7BC24D;
+	color: #fff;
+}
+
+.btn-branco {
+	border: 2px solid #fff;
+}
+.btn-branco:hover {
+	background-color: #fff;
+	color: #7BC24D
+}
+
+/* -- Pratos --*/
+#pratos {
+	background: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.img-pratos {
+	padding: 10px 0px 10px 0px;
+}
+
+/* -- Sobre --*/
+#sobre {
+	padding-top: 20px;
+	color: #fff;
+}
+
+/* .rotacionar {
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform:  rotate(30deg);
+	padding-left: 80px;
+} */
+
+/*-- Rodapé --*/
+footer {
+	background: #111A0B;
+	padding: 50px 0px 20px 0px;
+}
+
+.item-rede-social {
+	float: right;
+}
+
+.maps {
+	margin-top: 10px;
+}
+
+/* =============== Tipografia =============== */
+h1 {
+	font-size: 80px;
+	font-weight: 900;
+	letter-spacing: -0.03em;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+}
+
+#rodape h4 {
+	color: #848689;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#rodape h5 {
+	color: #848689;
+}
+
+#pratos h2, #pratos h3 {
+	color: #7BC24D;
+}
+
+#pratos p {
+	color: #848689;
+}
+
+#sobre h3 {
+	color: #B5D454;
+}
